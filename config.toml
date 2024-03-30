@@ -12,6 +12,17 @@ excluded-patches = "'Hide cast button'"
 version = "auto"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
+[Music-ReX]
+app-name = "Music"
+patches-source = "YT-Advanced/ReX-patches"
+integrations-source = "YT-Advanced/ReX-integrations"
+cli-source = "inotia00/revanced-cli"
+version= "6.45.54"
+excluded-patches = "'Custom branding Music name' 'Custom branding icon YouTube Music'"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+arch = "both"
+
 [Music]
 build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
